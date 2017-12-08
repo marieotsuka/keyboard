@@ -1,0 +1,93 @@
+body{
+	font-family: 'Libre Franklin', serif;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+.note{
+	font-size: 10em;
+	display: inline-block;
+	text-transform: lowercase;
+	float: left;
+}
+
+#options{
+	position: fixed;
+	top: 0;
+	left: 10px;
+}
+#error{
+	display: none;
+}
+
+.key{
+	float: left;
+	display: block;
+	width: 3em;
+	height: 3em;
+	border: 1px solid #000;
+	border-radius: 3px;
+	margin: 3px;
+	padding: 2px;
+	text-transform: uppercase;
+}
+
+.inactive{
+	background-color: #dedede;
+	border-color: #ccc;
+}
+
+.row{
+	overflow: auto;
+	height: 4em;
+}
+
+.info{
+	float: left;
+}
+
+#register{
+	font-size: 3rem;
+	width: 5rem;
+}
+
+#input{
+	width: 100vw;
+	height: 70vh;
+	margin-top: 30vh;
+}
+
+.reg1{
+	font-weight: 900;
+}
+
+.reg2{
+	font-weight: 700;
+}
+
+.reg3{
+	font-weight: 500;
+}
+
+.reg4{
+	font-weight: 300;
+}
+
+.reg5{
+	font-weight: 100;
+}
+
+.sup{
+	font-size: 1rem;
+}
+.note{
+	transform-origin: 0% 50%;
+}
+
+.shift#{
+	text-transform: uppercase;
+}
+
